@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+    font-weight: bold;
+    font-size: 30px;
+}
+.move-emoji {
+    width: 50px;
+}
+.move-button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 10px 5px 50px 0px;
+    cursor: pointer;
+}
+.result {
+    font-size: 25px;
+    font-weight: bold;
+}
+.score-board {
+    margin-top: 50px;
+}
+.reset-button, .autoplay-button{
+    background-color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
